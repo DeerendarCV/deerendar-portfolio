@@ -1,0 +1,119 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="theme-color" content="#080d18">
+  <meta name="description" content="Deerendar — B.Tech Information Technology student, aspiring software engineer, Python programmer and problem solver.">
+  <title>Deerendar | Aspiring Software Engineer</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=DM+Mono:wght@400;500&family=Manrope:wght@400;500;600;700;800&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="style.css">
+  <script src="script.js" defer></script>
+</head>
+<body>
+  <div class="noise" aria-hidden="true"></div>
+  <header class="site-header">
+    <a class="brand" href="#home" aria-label="Deerendar home"><span class="brand-mark">D<span>.</span></span><span>DEERENDAR</span></a>
+    <button class="menu-toggle" id="menuToggle" aria-label="Open navigation" aria-expanded="false"><span></span><span></span></button>
+    <nav class="nav" id="nav">
+      <a href="#about">About</a><a href="#skills">Skills</a><a href="#projects">Projects</a><a href="#achievements">Achievements</a><a href="#contact" class="nav-contact">Contact <span>↗</span></a>
+    </nav>
+  </header>
+
+  <main>
+    <section class="hero section-wrap" id="home">
+      <div class="hero-copy">
+        <p class="eyebrow"><span class="status-dot"></span> B.TECH IT STUDENT · 2025—2029</p>
+        <h1>Building ideas<br>into <span class="gradient-text">solutions.</span></h1>
+        <p class="hero-description">Hi, I'm <strong>Deerendar</strong> — an aspiring software engineer who enjoys Python, problem-solving, and building practical technology projects.</p>
+        <div class="hero-actions">
+          <a class="button button-primary" href="#projects">Explore my work <span>↘</span></a>
+          <a class="button button-ghost" href="#contact">Let's connect <span>↗</span></a>
+        </div>
+        <div class="hero-meta"><span><i class="meta-line"></i> Based in Tamil Nadu, India</span><span class="mono">OPEN TO LEARNING & OPPORTUNITIES</span></div>
+      </div>
+      <div class="hero-visual">
+        <div class="orbit orbit-one"></div><div class="orbit orbit-two"></div>
+        <div class="profile-card">
+          <div class="card-top"><span class="mono">PROFILE_001</span><span class="live-pill"><i></i> ONLINE</span></div>
+          <div class="profile-image-wrap">
+            <img src="assets/profile.jpg" alt="Deerendar's profile portrait" class="profile-image" onerror="this.style.display='none';this.nextElementSibling.style.display='grid'">
+            <div class="profile-fallback">D<span>.</span></div>
+          </div>
+          <div class="profile-card-bottom"><div><h2>Deerendar</h2><p>Software Engineering Aspirant</p></div><span class="arrow-circle">↗</span></div>
+          <div class="profile-tags"><span>Python</span><span>Problem Solving</span><span>IT</span></div>
+        </div>
+        <div class="floating-chip chip-code"><span class="chip-icon">&lt;/&gt;</span><div><b>30+</b><small>LeetCode problems</small></div></div>
+        <div class="floating-chip chip-score"><span class="score-icon">✳</span><div><b>950 pts</b><small>Talentely score</small></div></div>
+        <div class="visual-glow"></div>
+      </div>
+    </section>
+
+    <section class="ticker" aria-label="Areas of interest"><div class="ticker-track"><span>PYTHON</span><b>✳</b><span>DATA STRUCTURES</span><b>✳</b><span>PROBLEM SOLVING</span><b>✳</b><span>SOFTWARE DEVELOPMENT</span><b>✳</b><span>GENERATIVE AI</span><b>✳</b><span>PYTHON</span><b>✳</b><span>DATA STRUCTURES</span><b>✳</b><span>PROBLEM SOLVING</span><b>✳</b><span>SOFTWARE DEVELOPMENT</span><b>✳</b><span>GENERATIVE AI</span><b>✳</b></div></section>
+
+    <section class="section-wrap section" id="about">
+      <div class="section-heading"><p class="eyebrow">01 / ABOUT</p><h2>A curious mind.<br><span class="muted">A builder's mindset.</span></h2></div>
+      <div class="about-grid">
+        <div class="about-text"><p class="large-copy">I'm an Information Technology student at <strong>VSB College of Engineering Technical Campus, Coimbatore</strong>, developing a strong foundation in programming and computer science.</p><p>I enjoy practicing data structures and algorithms, exploring software development, and turning academic concepts into useful projects. I'm currently expanding my knowledge through coursework and hands-on practice.</p><p>My goal is to contribute to real-world software projects, learn from experienced teams, and grow into a dependable software engineer.</p></div>
+        <div class="about-facts">
+          <div class="fact"><span class="fact-number">8.41</span><span class="fact-label">CGPA</span><span class="fact-note">B.Tech Information Technology</span></div>
+          <div class="fact"><span class="fact-number">30<span>+</span></span><span class="fact-label">LEETCODE</span><span class="fact-note">DSA problems solved</span></div>
+          <div class="fact"><span class="fact-number">950</span><span class="fact-label">TALENTELY</span><span class="fact-note">Points scored</span></div>
+          <div class="fact"><span class="fact-number">2029</span><span class="fact-label">GRADUATION</span><span class="fact-note">Expected graduation year</span></div>
+        </div>
+      </div>
+    </section>
+
+    <section class="section-wrap section" id="skills">
+      <div class="section-heading"><p class="eyebrow">02 / TOOLKIT</p><h2>Skills I'm <span class="gradient-text">growing.</span></h2><p class="section-intro">A developing toolkit built through coursework, practice, and projects.</p></div>
+      <div class="skills-grid">
+        <article class="skill-card"><div class="skill-icon">Py</div><h3>Programming</h3><p>Python · C Programming</p><span class="skill-index">01</span></article>
+        <article class="skill-card"><div class="skill-icon">⌘</div><h3>Computer Science</h3><p>OOP · Data Structures & Algorithms</p><span class="skill-index">02</span></article>
+        <article class="skill-card"><div class="skill-icon">▤</div><h3>Data & Databases</h3><p>DBMS · Data handling concepts</p><span class="skill-index">03</span></article>
+        <article class="skill-card"><div class="skill-icon">▦</div><h3>Productivity</h3><p>Microsoft Word · Excel · PowerPoint</p><span class="skill-index">04</span></article>
+      </div>
+      <p class="skills-note"><span class="note-mark">↗</span> Currently strengthening coding fundamentals and learning more about Generative AI and LLMs.</p>
+    </section>
+
+    <section class="section-wrap section" id="projects">
+      <div class="section-heading"><p class="eyebrow">03 / SELECTED WORK</p><h2>Projects with <span class="muted">purpose.</span></h2><p class="section-intro">Academic work focused on practical problems and reliable data handling.</p></div>
+      <article class="project-card">
+        <div class="project-art">
+          <div class="project-window"><div class="window-bar"><i></i><i></i><i></i><span>inventory_dashboard.py</span></div><div class="dashboard-preview"><div class="dash-sidebar"><b>INVENTORY</b><span></span><span></span><span></span><span></span></div><div class="dash-main"><small>OVERVIEW / INVENTORY</small><div class="dash-title"></div><div class="dash-stats"><i></i><i></i><i></i></div><div class="dash-table"><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span></div></div></div></div>
+          <div class="project-orb"></div>
+        </div>
+        <div class="project-details"><p class="eyebrow">ACADEMIC PROJECT · 01</p><h3>Drug Inventory &<br>Supply Chain Tracking System</h3><p>A system concept designed to manage medicine inventory and supply-chain records with organized data storage and easier monitoring.</p><ul><li>Designed a workflow to manage medicine inventory and supply-chain records.</li><li>Applied database concepts to store and retrieve records.</li><li>Aimed to reduce manual errors and improve workflow efficiency.</li></ul><div class="project-tags"><span>Python</span><span>Database Concepts</span><span>Inventory Management</span></div><p class="project-footnote">Add your repository or demo link when available.</p></div>
+      </article>
+    </section>
+
+    <section class="section-wrap section" id="achievements">
+      <div class="section-heading"><p class="eyebrow">04 / PROGRESS</p><h2>Learning in <span class="gradient-text">motion.</span></h2></div>
+      <div class="progress-grid">
+        <article class="progress-card"><span class="progress-symbol">⌘</span><p class="eyebrow">CODING PRACTICE</p><h3>LeetCode</h3><p>30+ Data Structures & Algorithms problems solved, with continued practice in coding and debugging.</p><div class="progress-bottom"><span>30+ solved</span><span class="progress-line"><i style="width:42%"></i></span></div></article>
+        <article class="progress-card"><span class="progress-symbol">✳</span><p class="eyebrow">CHALLENGE PLATFORM</p><h3>Talentely</h3><p>Scored 950 points while participating in coding challenges and technical learning.</p><div class="progress-bottom"><span>950 points</span><span class="progress-line"><i style="width:68%"></i></span></div></article>
+      </div>
+      <div class="cert-list">
+        <div class="cert-list-heading"><p class="eyebrow">CERTIFICATIONS & LEARNING</p><span class="mono">03 ITEMS</span></div>
+        <div class="cert-row"><span class="cert-number">01</span><div><h3>Data Analytics</h3><p>Novi Tech</p></div><span class="cert-status">COMPLETED</span><span class="cert-arrow">↗</span></div>
+        <div class="cert-row"><span class="cert-number">02</span><div><h3>Python Programming</h3><p>Online course</p></div><span class="cert-status">COMPLETED</span><span class="cert-arrow">↗</span></div>
+        <div class="cert-row"><span class="cert-number">03</span><div><h3>Fundamentals of Generative AI & Large Language Models</h3><p>NPTEL · SWAYAM</p></div><span class="cert-status status-progress">IN PROGRESS</span><span class="cert-arrow">↗</span></div>
+      </div>
+    </section>
+
+    <section class="section-wrap section education-section">
+      <div class="section-heading"><p class="eyebrow">05 / EDUCATION</p><h2>The foundation.</h2></div>
+      <div class="timeline">
+        <div class="timeline-item"><span class="timeline-dot"></span><div class="timeline-date">2025 — 2029</div><div><h3>B.Tech — Information Technology</h3><p>VSB College of Engineering Technical Campus, Coimbatore</p><span class="timeline-pill">CGPA 8.41</span></div></div>
+        <div class="timeline-item"><span class="timeline-dot"></span><div class="timeline-date">2025</div><div><h3>Higher Secondary (HSC)</h3><p>G.B.H.S.S., Perundurai</p></div></div>
+        <div class="timeline-item"><span class="timeline-dot"></span><div class="timeline-date">2023</div><div><h3>Secondary (SSLC)</h3><p>G.B.H.S.S., Perundurai</p></div></div>
+      </div>
+    </section>
+
+    <section class="contact-section" id="contact"><div class="contact-glow"></div><div class="section-wrap contact-inner"><p class="eyebrow">06 / CONTACT</p><h2>Let's build<br><span class="gradient-text">something useful.</span></h2><p>Interested in software development, learning opportunities, or collaborating on a project? I'd be happy to connect.</p><div class="contact-actions"><a class="button button-primary" href="mailto:theerendarhv.123@gmail.com">Email me <span>↗</span></a><a class="button button-ghost" href="https://www.linkedin.com/in/deerendar-c-v-6865b6423/" target="_blank" rel="noopener noreferrer">LinkedIn <span>↗</span></a></div><div class="contact-details"><a href="tel:+916379513217">+91 63795 13217</a><span>·</span><a href="mailto:theerendarhv.123@gmail.com">theerendarhv.123@gmail.com</a></div></div></section>
+  </main>
+
+  <footer class="footer"><a class="brand" href="#home"><span class="brand-mark">D<span>.</span></span><span>DEERENDAR</span></a><span class="footer-note">Designed to learn. Built to grow.</span><a href="#home" class="back-top">BACK TO TOP ↑</a><span class="copyright">© <span id="year"></span> DEERENDAR</span></footer>
+</body>
+</html>
